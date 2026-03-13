@@ -68,6 +68,18 @@ npm run build
 
 ---
 
+## 🌐 Hosting
+
+This project is optimized for deployment on **Netlify**. 
+
+- **Build Command**: `npm run build`
+- **Publish Directory**: `dist`
+- **Frontend Framework**: Vite
+
+For automatic deployments, connect your GitHub repository to a new project on the Netlify dashboard.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**. For detailed information, please refer to the `LICENSE` file within the repository.
