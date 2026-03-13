@@ -1,103 +1,79 @@
-# 🔐 CipherVault
+# CipherVault - password generator
 
-> **SECURE_KEY_GEN_V2.0** — A premium, hacker-terminal inspired password generator built with React and Framer Motion.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
+> Advanced Security Protocol V2.0 — A professional, high-performance cryptographic key generation utility built with modern web technologies.
 
 ---
 
-## ✨ Overview
+## Project Overview
 
-**CipherVault** is not just another password generator. It's a high-performance, aesthetically pleasing security tool designed for those who appreciate the cyberpunk/hacker aesthetic. Whether you need a simple 8-digit pin or a complex 64-character encrypted string, CipherVault provides a seamless and interactive experience.
-
-![CipherVault Preview](https://raw.githubusercontent.com/heyaryanmittal/CipherVault/main/preview.png) *(Note: Add your preview image here)*
+CipherVault is a sophisticated password generation tool designed for maximum security and optimal user experience. It leverages cryptographic randomization to produce high-entropy keys, presented through a refined terminal-inspired interface. The application prioritizes speed, security, and precision, making it an essential utility for modern digital security workflows.
 
 ---
 
-## 🚀 Features
+## Technical Features
 
-- 🛠️ **Fully Customizable**: Adjust length (8-64 characters) and toggle character sets (Uppercase, Lowercase, Numbers, Symbols).
-- 📊 **Strength Analysis**: Real-time password strength meter based on active character sets.
-- ⚡ **Instant Generation**: Lightning-fast password generation using cryptographic randomization.
-- 📋 **One-Click Copy**: Easily copy passwords to your clipboard with a rewarding confetti celebration.
-- 🎭 **Smooth Animations**: Powered by `Framer Motion` for a responsive, high-end feel.
-- 🛡️ **Hacker Aesthetic**: A sleek, dark-mode terminal interface with a matrix-inspired background.
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: [React 19](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Celebration**: [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
-- **Deployment**: [GitHub Pages](https://pages.github.com/)
+- **Entropy Control**: Precision length adjustment from 8 to 64 characters to meet any security requirement.
+- **Protocol Customization**: Granular control over character sets, including uppercase, lowercase, numeric, and symbolic parameters.
+- **Dynamic Strength Assessment**: Real-time analysis of password complexity based on active entropy sources.
+- **Cryptographic Generation**: Instantaneous key generation using secure randomization algorithms.
+- **Secure Clipboard Integration**: One-touch secure copy functionality with visual confirmation.
+- **Premium Interface**: A high-fidelity, dark-mode dashboard featuring smooth transitions and micro-animations for an immersive experience.
 
 ---
 
-## 🏗️ Getting Started
+## Technical Architecture
 
-### Prerequisites
+The application is engineered with a focus on performance and maintainability:
 
-- Node.js (v18 or higher)
-- npm or yarn
+- **Frontend**: React 19 for efficient component-based UI rendering.
+- **Motion Engine**: Framer Motion for declarative, hardware-accelerated animations.
+- **Iconography**: Lucide React for a clean, professional visual language.
+- **Styling**: Vanilla CSS architecture with standard design tokens for maximum control.
+- **Build Pipeline**: Vite for optimized development and production bundling.
 
-### Installation
+---
 
-1. **Clone the repository**
+## Local Deployment
+
+### Development Environment
+
+1. **System Requirements**
+   - Node.js v18.0.0 or higher
+   - npm or yarn package manager
+
+2. **Installation**
    ```bash
+   # Clone the production repository
    git clone https://github.com/heyaryanmittal/CipherVault.git
-   cd CipherVault
-   ```
 
-2. **Install dependencies**
-   ```bash
+   # Navigate to project root
+   cd CipherVault
+
+   # Initialize dependencies
    npm install
    ```
 
-3. **Start the development server**
+3. **Execution**
    ```bash
+   # Launch localized development server
    npm run dev
    ```
 
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
+### Production Build
 
----
-
-## 📦 Deployment
-
-This project is configured for easy deployment to GitHub Pages:
-
+To generate an optimized production bundle:
 ```bash
-npm run deploy
+npm run build
 ```
 
 ---
 
-## 🤝 Contributing
+## License
 
-Contributions are welcome! If you have any ideas to improve the security or the UI, feel free to open an issue or submit a pull request.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License. For detailed information, please refer to the LICENSE file within the repository.
 
 ---
 
 <p align="center">
-  Built with 💚 by <a href="https://github.com/heyaryanmittal">Aryan Mittal</a>
+  Developed by <a href="https://github.com/heyaryanmittal">Aryan Mittal</a>
 </p>
